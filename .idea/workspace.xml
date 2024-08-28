@@ -1,30 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3590bac3-c58d-4120-9bac-d2db8ae36898" name="Changes" comment="" />
+    <list default="true" id="3590bac3-c58d-4120-9bac-d2db8ae36898" name="Changes" comment="create rep">
+      <change beforePath="$PROJECT_DIR$/.idea/Diplom_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diplom_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lHxb8Xd7sXXw1bJh4NYQEPyCLC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_forgot_password.TestLoginPage.executor": "Run",
+    "Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input.executor": "Run",
+    "Python tests.Python tests for test_forgot_password.TestLoginPage.test_show_password_button.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_click_bun.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_click_constructor.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_click_list.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_close_modal_bun.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_count_in_basket.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_create_order.executor": "Run",
+    "Python tests.Python tests for test_order.TestFeedPage.test_click_feed_open_modal.executor": "Run",
+    "Python tests.Python tests for test_order.TestFeedPage.test_feed_all_orders_counter.executor": "Run",
+    "Python tests.Python tests for test_order.TestFeedPage.test_feed_today_orders_counter.executor": "Run",
+    "Python tests.Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed.executor": "Run",
+    "Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_account.executor": "Run",
+    "Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_feed.executor": "Run",
+    "Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_quit.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "Develop__3"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_main_function.TestMainPage.test_click_constructor">
+    <configuration name="Python tests for test_main_function.TestMainPage.test_click_constructor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main_function.TestMainPage.test_click_constructor&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_order.TestFeedPage.test_click_feed_open_modal" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_click_feed_open_modal&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_order.TestFeedPage.test_feed_all_orders_counter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_feed_all_orders_counter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_order.TestFeedPage.test_feed_today_orders_counter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_feed_today_orders_counter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_order_user_shown_in_feed&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_main_function.TestMainPage.test_click_constructor" />
+        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_click_feed_open_modal" />
+        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed" />
+        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_feed_today_orders_counter" />
+        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_feed_all_orders_counter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +164,19 @@
       <option name="presentableId" value="Default" />
       <updated>1724850872015</updated>
     </task>
+    <task id="LOCAL-00001" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724850943467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850943467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create rep" />
+    <option name="LAST_COMMIT_MESSAGE" value="create rep" />
   </component>
 </project>
