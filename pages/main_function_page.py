@@ -1,7 +1,5 @@
 from pages.base_page import BasePage
-from URLs import URLS
 from locators import main_function_locators
-#from seletools.actions import drag_and_drop
 import allure
 
 

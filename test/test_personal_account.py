@@ -9,9 +9,9 @@ class TestAccountPage:
     @allure.title('Проверить переход в личный кабинет')
     def test_login_click_account(self, driver):
         pa_page = PersonalAccountPage(driver)
-        login_page = ForgotPasswordPage(driver)
-        login_page.change_url(URLS.login_page_url)
-        login_page.login()
+        forgot_page = ForgotPasswordPage(driver)
+        forgot_page.change_url(URLS.login_page_url)
+        forgot_page.login()
         pa_page.click_pa_page()
         pa_page.check_pa_redirect_page()
         assert pa_page.get_current_url() == URLS.personal_account_url
@@ -19,9 +19,9 @@ class TestAccountPage:
     @allure.title('Проверить переход в историю заказов')
     def test_login_click_feed(self, driver):
         pa_page = PersonalAccountPage(driver)
-        login_page = ForgotPasswordPage(driver)
-        login_page.change_url(URLS.login_page_url)
-        login_page.login()
+        forgot_page = ForgotPasswordPage(driver)
+        forgot_page.change_url(URLS.login_page_url)
+        forgot_page.login()
         pa_page.click_pa_page()
         pa_page.check_pa_redirect_page()
         pa_page.click_history()
@@ -30,11 +30,11 @@ class TestAccountPage:
     @allure.title('Проверить логаут в личном кабинете')
     def test_login_click_quit(self, driver):
         pa_page = PersonalAccountPage(driver)
-        login_page = ForgotPasswordPage(driver)
-        login_page.change_url(URLS.login_page_url)
-        login_page.login()
+        forgot_page = ForgotPasswordPage(driver)
+        forgot_page.change_url(URLS.login_page_url)
+        forgot_page.login()
         pa_page.click_pa_page()
         pa_page.check_pa_redirect_page()
         pa_page.logout()
-        login_page.wait_for_visability()
+        forgot_page.wait_for_visability()
         assert pa_page.get_current_url() == URLS.login_page_url

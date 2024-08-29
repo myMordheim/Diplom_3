@@ -23,7 +23,7 @@ class PersonalAccountPage(BasePage):
 
     @allure.step('Проверить страницу профиля')
     def check_pa_redirect_page(self):
-        return self.wait_for_element_visability(personal_account_locators.profile_button)
+        return self.find_element(personal_account_locators.profile_button)
 
     @allure.step('Выйти из аккаунта')
     def logout(self):

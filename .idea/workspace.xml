@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3590bac3-c58d-4120-9bac-d2db8ae36898" name="Changes" comment="create rep">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/order_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/order_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forgot_password_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forgot_password_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main_function_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_function_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_forgot_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_forgot_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_main_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_main_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_personal_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_personal_account.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,30 +47,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_forgot_password.TestLoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_forgot_password.TestLoginPage.test_show_password_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_click_bun.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_click_constructor.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_click_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_close_modal_bun.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_count_in_basket.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_create_order.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_order.TestFeedPage.test_click_feed_open_modal.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_order.TestFeedPage.test_feed_all_orders_counter.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_order.TestFeedPage.test_feed_today_orders_counter.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_feed.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_quit.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Develop__3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_forgot_password.TestLoginPage.executor": "Run",
+    "Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_password_redirect.executor": "Run",
+    "Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input.executor": "Run",
+    "Python tests.Python tests for test_forgot_password.TestLoginPage.test_show_password_button.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_click_bun.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_click_constructor.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_click_list.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_close_modal_bun.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_count_in_basket.executor": "Run",
+    "Python tests.Python tests for test_main_function.TestMainPage.test_create_order.executor": "Run",
+    "Python tests.Python tests for test_order.TestFeedPage.test_click_feed_open_modal.executor": "Run",
+    "Python tests.Python tests for test_order.TestFeedPage.test_feed_all_orders_counter.executor": "Run",
+    "Python tests.Python tests for test_order.TestFeedPage.test_feed_today_orders_counter.executor": "Run",
+    "Python tests.Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed.executor": "Run",
+    "Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_account.executor": "Run",
+    "Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_feed.executor": "Run",
+    "Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_quit.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Develop__3"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_main_function.TestMainPage.test_click_constructor">
-    <configuration name="Python tests for test_main_function.TestMainPage.test_click_constructor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_main_function.TestMainPage.test_count_in_basket">
+    <configuration name="Python tests for test_forgot_password.TestLoginPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,11 +82,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_main_function.TestMainPage.test_click_constructor&quot;" />
+      <option name="_new_target" value="&quot;test_forgot_password.TestLoginPage&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_order.TestFeedPage.test_click_feed_open_modal" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_forgot_password.TestLoginPage.test_forgot_password_redirect" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,11 +97,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_click_feed_open_modal&quot;" />
+      <option name="_new_target" value="&quot;test_forgot_password.TestLoginPage.test_forgot_password_redirect&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_order.TestFeedPage.test_feed_all_orders_counter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,11 +112,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_feed_all_orders_counter&quot;" />
+      <option name="_new_target" value="&quot;test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_order.TestFeedPage.test_feed_today_orders_counter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_forgot_password.TestLoginPage.test_show_password_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,11 +127,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_feed_today_orders_counter&quot;" />
+      <option name="_new_target" value="&quot;test_forgot_password.TestLoginPage.test_show_password_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_main_function.TestMainPage.test_count_in_basket" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,17 +142,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_order_user_shown_in_feed&quot;" />
+      <option name="_new_target" value="&quot;test_main_function.TestMainPage.test_count_in_basket&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_main_function.TestMainPage.test_click_constructor" />
-        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_click_feed_open_modal" />
-        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed" />
-        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_feed_today_orders_counter" />
-        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_feed_all_orders_counter" />
+        <item itemvalue="Python tests.Python tests for test_main_function.TestMainPage.test_count_in_basket" />
+        <item itemvalue="Python tests.Python tests for test_forgot_password.TestLoginPage.test_show_password_button" />
+        <item itemvalue="Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input" />
+        <item itemvalue="Python tests.Python tests for test_forgot_password.TestLoginPage" />
+        <item itemvalue="Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_password_redirect" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724877615484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724893896790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724893896790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

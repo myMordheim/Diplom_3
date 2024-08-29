@@ -18,10 +18,6 @@ class BasePage:
     def change_url(self, url):
         self.driver.get(url)
 
-    @allure.step('Ожидание оторбражения видимости элемента')
-    def wait_for_visability(self, locator):
-        WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located(locator))
-
     @allure.step('Ожидание: переход на другой url')
     def wait_url_change(self, url):
         WebDriverWait(self.driver, 5).until(expected_conditions.url_changes(url))
@@ -42,10 +38,6 @@ class BasePage:
     @allure.step('Кликнуть на элемент')
     def click_element(self, locator):
         WebDriverWait(self.driver, 5).until(expected_conditions.element_to_be_clickable(locator)).click()
-
-    @allure.step('Подождать отображение элемента')
-    def wait_for_element_visability(self, locator):
-        WebDriverWait(self.driver, 5).until((expected_conditions.visibility_of_element_located(locator)))
 
     @allure.step('Найти текст')
     def find_text_element(self, locator):

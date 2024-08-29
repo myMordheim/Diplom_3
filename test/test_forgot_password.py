@@ -1,4 +1,3 @@
-import allure
 from conftest import *
 from pages.forgot_password_page import *
 from URLs import *
@@ -28,4 +27,4 @@ class TestLoginPage:
         forgot_page.change_url(URLS.login_page_url)
         forgot_page.fill_input_password('Galadriel')
         forgot_page.click_password_visible()
-        assert forgot_page.active_password_input
+        assert forgot_page.active_password_input()

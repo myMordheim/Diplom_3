@@ -2,6 +2,7 @@ import allure
 from locators import forgot_password_locators
 from pages.base_page import BasePage
 from data import *
+from URLs import URLS
 
 
 class ForgotPasswordPage(BasePage):
@@ -41,4 +42,4 @@ class ForgotPasswordPage(BasePage):
         self.click_button_login()
 
     def wait_for_visability(self):
-        self.wait_for_element_visability(forgot_password_locators.login_link_on_forgot_password)
+        self.wait_url_change(URLS.login_page_url)
