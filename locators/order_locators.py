@@ -8,5 +8,6 @@ counter_today = (By.XPATH, "//p[text()='Выполнено за сегодня:'
 counter_progress = (By.XPATH, ".//li[contains(@class, 'text_type_digits-default')]")
 order_window = (By.XPATH, ".//li[contains(@class, 'OrderHistory_listItem__2x95r')][1]")
 order_history = (By.XPATH, './/p[contains(@class, "text_type_digits-default")]')
-check_order = (By.XPATH, f'.//p[@class="text text_type_digits-default"]')
+order_id_for_method = (By.XPATH, f'.//p[@class="text text_type_digits-default"]')
+order_history_item_id = (By.XPATH, './/p[@class="text text_type_digits-default"]')
 

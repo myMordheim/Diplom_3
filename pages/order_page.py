@@ -17,13 +17,14 @@ class OrderPage(BasePage):
 
     @allure.step('Получить номер последнего заказа')
     def get_order_id(self):
-        return self.find_text_element(order_locators.order_history)[-1]
+        self.find_element(order_locators.order_history_item_id)
+        return self.find_list_elements(order_locators.order_history_item_id)[-1].text
 
     @allure.step('Проверить, что заказ в списке')
     def check_order(self, order_id):
         self.find_element(order_locators.order)
         element = None
-        elements = self.find_list_elements(order_locators.check_order)
+        elements = self.find_list_elements(order_locators.order_id_for_method)
         for e in elements:
             if order_id == e.text:
                 element = e
