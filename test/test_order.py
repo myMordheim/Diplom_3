@@ -17,7 +17,7 @@ class TestFeedPage:
         login_page.login()
         main_page.click_list()
         order_page.click_order()
-        assert True
+        assert order_page.check_modal()
 
     @allure.title('Проверяем, что заказы пользователя отображатся в истории заказов')
     def test_order_user_shown_in_feed(self, driver):
@@ -34,7 +34,7 @@ class TestFeedPage:
         pa_page.click_history()
         order_id = order_page.get_order_id()
         main_page.click_list()
-        assert True
+        assert order_page.check_order(order_id)
 
     @allure.title('Проверяем счетчик всех заказов')
     def test_feed_all_orders_counter(self, driver):
