@@ -2,6 +2,8 @@ from pages.base_page import BasePage
 from URLs import URLS
 from locators import order_locators
 import allure
+from selenium.webdriver.common.by import By
+
 
 
 
@@ -21,8 +23,9 @@ class OrderPage(BasePage):
         return self.find_text_element(order_locators.order_history)[-1]
 
     @allure.step('Проверить, что заказ в списке')
-    def check_order(self):
-        return self.find_element(order_locators.check_order)
+    def check_order(self, order_id):
+        order = order_locators.check_order + tuple(f'"{order_id}"]')
+        return self.find_element(order)
 
     @allure.step(f'Открываем страницу заказов')
     def open_order_page(self):
