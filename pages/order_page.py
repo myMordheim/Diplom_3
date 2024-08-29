@@ -5,9 +5,6 @@ import allure
 from selenium.webdriver.common.by import By
 
 
-
-
-
 class OrderPage(BasePage):
 
     @allure.step('Нажать на заказ')
@@ -24,8 +21,14 @@ class OrderPage(BasePage):
 
     @allure.step('Проверить, что заказ в списке')
     def check_order(self, order_id):
-        order = order_locators.check_order + tuple(f'"{order_id}"]')
-        return self.find_element(order)
+        self.find_element(order_locators.order)
+        element = None
+        elements = self.find_list_elements(order_locators.check_order)
+        for e in elements:
+            if order_id == e.text:
+                element = e
+                break
+        return element
 
     @allure.step(f'Открываем страницу заказов')
     def open_order_page(self):
