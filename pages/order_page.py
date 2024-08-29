@@ -2,7 +2,7 @@ from pages.base_page import BasePage
 from URLs import URLS
 from locators import order_locators
 import allure
-from selenium.webdriver.common.by import By
+
 
 
 
