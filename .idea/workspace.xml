@@ -1,30 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3590bac3-c58d-4120-9bac-d2db8ae36898" name="Changes" comment="" />
+    <list default="true" id="3590bac3-c58d-4120-9bac-d2db8ae36898" name="Changes" comment="create rep">
+      <change beforePath="$PROJECT_DIR$/locators/order_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/order_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order_page.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lHxb8Xd7sXXw1bJh4NYQEPyCLC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_forgot_password.TestLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_password_redirect.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_forgot_password.TestLoginPage.test_show_password_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_click_bun.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_click_constructor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_click_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_close_modal_bun.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_count_in_basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_function.TestMainPage.test_create_order.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order.TestFeedPage.test_click_feed_open_modal.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order.TestFeedPage.test_feed_all_orders_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order.TestFeedPage.test_feed_today_orders_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_feed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_personal_account.TestAccountPage.test_login_click_quit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.order_locators.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Develop__3&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed">
+    <configuration name="Python tests for test_forgot_password.TestLoginPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_forgot_password.TestLoginPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_forgot_password.TestLoginPage.test_show_password_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_forgot_password.TestLoginPage.test_show_password_button&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_main_function.TestMainPage.test_count_in_basket" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main_function.TestMainPage.test_count_in_basket&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestFeedPage.test_order_user_shown_in_feed&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_order.TestFeedPage.test_order_user_shown_in_feed" />
+        <item itemvalue="Python tests.Python tests for test_main_function.TestMainPage.test_count_in_basket" />
+        <item itemvalue="Python tests.Python tests for test_forgot_password.TestLoginPage.test_show_password_button" />
+        <item itemvalue="Python tests.Python tests for test_forgot_password.TestLoginPage.test_forgot_passwrod_with_correct_email_input" />
+        <item itemvalue="Python tests.Python tests for test_forgot_password.TestLoginPage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +165,67 @@
       <option name="presentableId" value="Default" />
       <updated>1724850872015</updated>
     </task>
+    <task id="LOCAL-00001" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724850943467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850943467</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724877615484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724877615484</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724893896790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724893896790</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724956131368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724956131368</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724956282753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724956282753</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724957345418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724957345418</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create rep">
+      <option name="closed" value="true" />
+      <created>1724962791466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724962791466</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create rep" />
+    <option name="LAST_COMMIT_MESSAGE" value="create rep" />
   </component>
 </project>
